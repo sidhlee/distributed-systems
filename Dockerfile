@@ -6,6 +6,3 @@ WORKDIR /app
 
 # Copy everything from the current directory to the Working Directory inside the container
 COPY . .
-
-# Command to run upon container start
-CMD [ "bash" ]
